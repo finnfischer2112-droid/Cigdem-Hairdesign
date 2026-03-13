@@ -1,0 +1,33 @@
+packages:
+  "framer-motion": "Required for smooth scroll-triggered animations, parallax effects, and premium transitions requested by the user."
+
+images:
+  - path: "artifacts/hairdesign-cigdem/public/images/hero-bg.png"
+    description: "Dark, luxury hair salon interior with subtle warm gold lighting, cinematic depth of field, blurred background, elegant atmosphere"
+    aspect_ratio: "16:9"
+  - path: "artifacts/hairdesign-cigdem/public/images/about-img.png"
+    description: "Elegant professional hairdressing scissors and a comb resting on a dark textured marble surface with subtle gold lighting accents, premium macro photography"
+    aspect_ratio: "4:3"
+  - path: "artifacts/hairdesign-cigdem/public/images/portfolio-1.png"
+    description: "Close up back view of beautiful women's blonde balayage wavy hair, dark background, dramatic studio lighting, highly detailed, luxury salon"
+    aspect_ratio: "1:1"
+  - path: "artifacts/hairdesign-cigdem/public/images/portfolio-2.png"
+    description: "Sharp men's fade haircut and perfectly groomed beard, side profile, dark background, moody luxury salon vibe"
+    aspect_ratio: "1:1"
+  - path: "artifacts/hairdesign-cigdem/public/images/portfolio-3.png"
+    description: "Elegant women's intricate updo hairstyle with subtle gold hair accessory, dark background, soft premium lighting"
+    aspect_ratio: "1:1"
+  - path: "artifacts/hairdesign-cigdem/public/images/portfolio-4.png"
+    description: "Vibrant rich red hair coloration on long wavy hair, dark background, striking contrast, glossy finish"
+    aspect_ratio: "1:1"
+  - path: "artifacts/hairdesign-cigdem/public/images/portfolio-5.png"
+    description: "Men's classic styled pompadour haircut, perfectly groomed, dark background, high-end editorial look"
+    aspect_ratio: "1:1"
+  - path: "artifacts/hairdesign-cigdem/public/images/portfolio-6.png"
+    description: "Silky smooth straight dark brunette hair reflecting light, glossy shine, luxury hair care concept, dark background"
+    aspect_ratio: "1:1"
+
+notes:
+  - This is a static frontend-only site, no backend APIs required.
+  - Using Framer Motion for Intersection Observer based scroll animations.
+  - Relying on native CSS scroll-behavior for smooth anchor link navigation.

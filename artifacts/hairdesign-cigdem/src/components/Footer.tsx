@@ -1,0 +1,20 @@
+export function Footer() {
+  return (
+    <footer className="bg-black py-8 border-t border-white/10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="font-display font-bold text-xl tracking-widest text-white uppercase">
+          CIGDEM
+        </div>
+        
+        <p className="text-gray-500 text-sm font-light text-center md:text-left">
+          &copy; {new Date().getFullYear()} Hairdesign Cigdem. Alle Rechte vorbehalten.
+        </p>
+        
+        <div className="flex items-center gap-6">
+          <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Impressum</a>
+          <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+  );
+}
