@@ -45,7 +45,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-5xl md:text-6xl lg:text-7xl text-white mb-3"
+          className="text-6xl md:text-8xl lg:text-9xl text-white mb-3"
           style={{ fontFamily: "'Dancing Script', cursive", fontWeight: 700 }}
         >
           Hairdesign <br/>
