@@ -1,3 +1,5 @@
+import { Link } from "wouter";
+
 export function Footer() {
   return (
     <footer className="bg-black py-8 border-t border-white/10">
@@ -11,7 +13,7 @@ export function Footer() {
         </p>
         
         <div className="flex items-center gap-6">
-          <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Impressum</a>
+          <Link href="/impressum" className="text-sm text-gray-500 hover:text-white transition-colors">Impressum</Link>
           <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Datenschutz</a>
         </div>
       </div>
