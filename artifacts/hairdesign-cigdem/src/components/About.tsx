@@ -136,7 +136,7 @@ export function About() {
             </div>
             <h4 className="text-xl font-display font-bold text-white mb-1">Daryna</h4>
             <p className="text-accent text-sm uppercase tracking-wider font-medium mb-3">{teamMembers[1].role}</p>
-            <p className="text-gray-400 text-sm leading-relaxed font-light">{teamMembers[1].description}</p>
+            <p className="text-gray-400 text-sm leading-relaxed font-light">Daryna ist unsere Spezialistin für Farbe und Balayage. Mit kreativem Talent und Präzision zaubert sie natürlich strahlende Ergebnisse.</p>
           </motion.div>
 
         </div>
