@@ -30,10 +30,12 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2 group">
-            <span className="font-display font-bold text-2xl tracking-widest text-white group-hover:text-accent transition-colors duration-300 uppercase">
-              CIGDEM
-            </span>
+          <a href="#" className="flex items-center group">
+            <img
+              src={`${import.meta.env.BASE_URL}images/logo.png`}
+              alt="Hairdesign Cigdem"
+              className="h-14 w-auto object-contain"
+            />
           </a>
 
           {/* Desktop Nav */}

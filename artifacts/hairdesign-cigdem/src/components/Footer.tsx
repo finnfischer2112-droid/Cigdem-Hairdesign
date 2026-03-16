@@ -4,9 +4,11 @@ export function Footer() {
   return (
     <footer className="bg-black py-8 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
-        <div className="font-display font-bold text-xl tracking-widest text-white uppercase">
-          CIGDEM
-        </div>
+        <img
+          src={`${import.meta.env.BASE_URL}images/logo.png`}
+          alt="Hairdesign Cigdem"
+          className="h-12 w-auto object-contain"
+        />
         
         <p className="text-gray-500 text-sm font-light text-center md:text-left">
           &copy; {new Date().getFullYear()} Hairdesign Cigdem. Alle Rechte vorbehalten.
