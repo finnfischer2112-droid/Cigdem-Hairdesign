@@ -128,15 +128,15 @@ export function About() {
               <div className="absolute inset-0 border border-white/10 group-hover:border-accent/60 transition-colors duration-500 z-10 pointer-events-none" />
               <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black/80 to-transparent z-10" />
               <img
-                src={teamMembers[1].image}
-                alt={teamMembers[1].name}
-                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                src={`${BASE}images/team-onur.png`}
+                alt="Onur"
+                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20" />
             </div>
-            <h4 className="text-xl font-display font-bold text-white mb-1">Daryna</h4>
-            <p className="text-accent text-sm uppercase tracking-wider font-medium mb-3">{teamMembers[1].role}</p>
-            <p className="text-gray-400 text-sm leading-relaxed font-light">Daryna ist unsere Spezialistin für Farbe und Balayage. Mit kreativem Talent und Präzision zaubert sie natürlich strahlende Ergebnisse.</p>
+            <h4 className="text-xl font-display font-bold text-white mb-1">Onur</h4>
+            <p className="text-accent text-sm uppercase tracking-wider font-medium mb-3">Meister & Herrenspezialist</p>
+            <p className="text-gray-400 text-sm leading-relaxed font-light">Onur, Sohn von Cigdem, ist ausgebildeter Meister mit jahrelanger Erfahrung im Bereich Herrenschnitte. Mit Präzision und Leidenschaft bringt er jeden Herrenlook auf ein neues Level.</p>
           </motion.div>
 
         </div>
