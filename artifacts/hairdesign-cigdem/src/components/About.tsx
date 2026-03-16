@@ -95,7 +95,7 @@ export function About() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-3xl mx-auto">
           {teamMembers.map((member, index) => (
             <motion.div
-              key={member.name}
+              key={index}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
