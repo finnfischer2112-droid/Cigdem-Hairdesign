@@ -161,7 +161,7 @@ export function About() {
             </div>
             <h4 className="text-xl font-display font-bold text-white mb-1">Onur</h4>
             <p className="text-accent text-sm uppercase tracking-wider font-medium mb-3">Meister & Herrenspezialist</p>
-            <p className="text-gray-400 text-sm leading-relaxed font-light">Onur, Sohn von Cigdem, ist ausgebildeter Meister mit jahrelanger Erfahrung im Bereich Herrenschnitte. Mit Präzision und Leidenschaft bringt er jeden Herrenlook auf ein neues Level.</p>
+            <p className="text-gray-400 text-sm leading-relaxed font-light">Onur, ist ausgebildeter Meister mit jahrelanger Erfahrung im Bereich Herrenschnitte. Mit Präzision und Leidenschaft bringt er jeden Herrenlook auf ein neues Level.</p>
           </motion.div>
 
         </div>
