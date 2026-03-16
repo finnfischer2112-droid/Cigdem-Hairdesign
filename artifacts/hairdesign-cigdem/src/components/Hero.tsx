@@ -46,7 +46,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-6xl md:text-8xl lg:text-9xl text-white mb-3"
-          style={{ fontFamily: "'Dancing Script', cursive", fontWeight: 700 }}
+          style={{ fontFamily: "'Playfair Display', serif", fontWeight: 800, fontStyle: "italic" }}
         >
           Hairdesign <br/>
           <span className="text-gradient-gold">Cigdem</span>
