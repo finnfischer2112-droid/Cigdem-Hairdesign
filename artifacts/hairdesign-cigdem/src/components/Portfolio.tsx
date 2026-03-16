@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const images = [
-  { src: `${import.meta.env.BASE_URL}images/gallery-1.jpeg`, position: "center" },
-  { src: `${import.meta.env.BASE_URL}images/gallery-2.jpeg`, position: "center 26%" },
-  { src: `${import.meta.env.BASE_URL}images/gallery-3.jpeg`, position: "center" },
-  { src: `${import.meta.env.BASE_URL}images/gallery-4.jpeg`, position: "center" },
-  { src: `${import.meta.env.BASE_URL}images/gallery-5.jpeg`, position: "center" },
-  { src: `${import.meta.env.BASE_URL}images/gallery-6.jpeg`, position: "center" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-1.jpeg`, position: "center", scale: 1 },
+  { src: `${import.meta.env.BASE_URL}images/gallery-2.jpeg`, position: "center 26%", scale: 1 },
+  { src: `${import.meta.env.BASE_URL}images/gallery-3.jpeg`, position: "center", scale: 1 },
+  { src: `${import.meta.env.BASE_URL}images/gallery-4.jpeg`, position: "center", scale: 1.35 },
+  { src: `${import.meta.env.BASE_URL}images/gallery-5.jpeg`, position: "center", scale: 1 },
+  { src: `${import.meta.env.BASE_URL}images/gallery-6.jpeg`, position: "center", scale: 1 },
 ];
 
 export function Portfolio() {
@@ -40,8 +40,10 @@ export function Portfolio() {
               <img 
                 src={img.src} 
                 alt={`Portfolio Style ${idx + 1}`} 
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                style={{ objectPosition: img.position }}
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700"
+                style={{ objectPosition: img.position, transform: `scale(${img.scale})` }}
+                onMouseEnter={e => (e.currentTarget.style.transform = `scale(${img.scale * 1.08})`)}
+                onMouseLeave={e => (e.currentTarget.style.transform = `scale(${img.scale})`)}
               />
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
