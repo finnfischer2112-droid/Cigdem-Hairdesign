@@ -71,10 +71,10 @@ export function Hero() {
         >
           <a 
             href="tel:06128489848"
-            className="group relative inline-flex items-center gap-3 bg-primary px-8 py-4 text-white font-medium uppercase tracking-widest overflow-hidden"
+            className="group relative inline-flex items-center gap-2 bg-primary px-5 py-2.5 text-white text-sm font-medium uppercase tracking-wider rounded-full overflow-hidden"
           >
             <span className="absolute inset-0 w-full h-full bg-white/20 -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out" />
-            <Phone size={20} className="relative z-10" />
+            <Phone size={16} className="relative z-10" />
             <span className="relative z-10">Jetzt Termin vereinbaren</span>
           </a>
         </motion.div>
