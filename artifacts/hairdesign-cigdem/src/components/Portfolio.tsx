@@ -6,7 +6,7 @@ const images = [
   { src: `${import.meta.env.BASE_URL}images/gallery-3.jpeg`, position: "center", scale: 1 },
   { src: `${import.meta.env.BASE_URL}images/gallery-4.jpeg`, position: "center 40%", scale: 1.5 },
   { src: `${import.meta.env.BASE_URL}images/gallery-5.jpeg`, position: "center 43%", scale: 1 },
-  { src: `${import.meta.env.BASE_URL}images/gallery-6.jpeg`, position: "center", scale: 1 },
+  { src: `${import.meta.env.BASE_URL}images/gallery-6.jpeg`, position: "center 40%", scale: 1 },
 ];
 
 export function Portfolio() {
