@@ -21,7 +21,6 @@ export function About() {
   return (
     <section id="about" className="py-24 md:py-32 bg-background relative overflow-hidden">
       <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
 
@@ -135,7 +134,7 @@ export function About() {
               />
               <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20" />
             </div>
-            <h4 className="text-xl font-display font-bold text-white mb-1">Cigdem</h4>
+            <h4 className="text-xl font-display font-bold text-white mb-1">Daryna</h4>
             <p className="text-accent text-sm uppercase tracking-wider font-medium mb-3">{teamMembers[1].role}</p>
             <p className="text-gray-400 text-sm leading-relaxed font-light">{teamMembers[1].description}</p>
           </motion.div>
