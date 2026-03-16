@@ -45,11 +45,14 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-6xl md:text-8xl lg:text-9xl text-white mb-3"
-          style={{ fontFamily: "'Playfair Display', serif", fontWeight: 800, fontStyle: "italic" }}
+          className="mb-3"
         >
-          Hairdesign <br/>
-          <span className="text-gradient-gold">Cigdem</span>
+          <img
+            src={`${import.meta.env.BASE_URL}images/logo.png`}
+            alt="Hairdesign Cigdem"
+            className="w-auto mx-auto"
+            style={{ maxHeight: "220px" }}
+          />
         </motion.h1>
         
         <motion.p 
