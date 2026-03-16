@@ -34,12 +34,13 @@ export function Portfolio() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
-              className="relative aspect-square overflow-hidden group cursor-pointer"
+              className="relative overflow-hidden group cursor-pointer"
+              style={{ paddingBottom: "100%" }}
             >
               <img 
                 src={src} 
                 alt={`Portfolio Style ${idx + 1}`} 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
               />
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
