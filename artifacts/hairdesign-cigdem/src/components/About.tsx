@@ -91,7 +91,7 @@ export function About() {
           </h3>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-3xl mx-auto">
+        <div className="grid grid-cols-2 gap-10 max-w-3xl mx-auto">
 
           {/* Team Member 2 — Daryna */}
           <motion.div
