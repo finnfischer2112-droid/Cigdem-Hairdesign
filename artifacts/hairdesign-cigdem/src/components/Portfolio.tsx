@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const images = [
-  `${import.meta.env.BASE_URL}images/gallery-1.jpeg`,
-  `${import.meta.env.BASE_URL}images/gallery-2.jpeg`,
-  `${import.meta.env.BASE_URL}images/gallery-3.jpeg`,
-  `${import.meta.env.BASE_URL}images/gallery-4.jpeg`,
-  `${import.meta.env.BASE_URL}images/gallery-5.jpeg`,
-  `${import.meta.env.BASE_URL}images/gallery-6.jpeg`,
+  { src: `${import.meta.env.BASE_URL}images/gallery-1.jpeg`, position: "center" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-2.jpeg`, position: "top" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-3.jpeg`, position: "center" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-4.jpeg`, position: "center" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-5.jpeg`, position: "center" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-6.jpeg`, position: "center" },
 ];
 
 export function Portfolio() {
@@ -27,7 +27,7 @@ export function Portfolio() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-          {images.map((src, idx) => (
+          {images.map((img, idx) => (
             <motion.div
               key={idx}
               initial={{ opacity: 0, y: 40 }}
@@ -38,9 +38,10 @@ export function Portfolio() {
               style={{ paddingBottom: "100%" }}
             >
               <img 
-                src={src} 
+                src={img.src} 
                 alt={`Portfolio Style ${idx + 1}`} 
-                className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                style={{ objectPosition: img.position }}
               />
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
