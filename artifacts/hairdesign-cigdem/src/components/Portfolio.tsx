@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const images = [
-  `${import.meta.env.BASE_URL}images/portfolio-1.png`,
-  `${import.meta.env.BASE_URL}images/portfolio-2.png`,
-  `${import.meta.env.BASE_URL}images/portfolio-3.png`,
-  `${import.meta.env.BASE_URL}images/portfolio-4.png`,
-  `${import.meta.env.BASE_URL}images/portfolio-5.png`,
-  `${import.meta.env.BASE_URL}images/portfolio-6.png`,
+  `${import.meta.env.BASE_URL}images/gallery-1.jpeg`,
+  `${import.meta.env.BASE_URL}images/gallery-2.jpeg`,
+  `${import.meta.env.BASE_URL}images/gallery-3.jpeg`,
+  `${import.meta.env.BASE_URL}images/gallery-4.jpeg`,
+  `${import.meta.env.BASE_URL}images/gallery-5.jpeg`,
+  `${import.meta.env.BASE_URL}images/gallery-6.jpeg`,
 ];
 
 export function Portfolio() {
