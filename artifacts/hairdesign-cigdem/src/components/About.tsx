@@ -10,9 +10,9 @@ const teamMembers = [
     image: `${BASE}images/team-1.jpeg`,
   },
   {
-    name: "Julia",
+    name: "Daryna",
     role: "Coloristin & Stylistin",
-    description: "Julia ist unsere Spezialistin für Farbe und Balayage. Mit kreativem Talent und Präzision zaubert sie natürlich strahlende Ergebnisse.",
+    description: "Daryna ist unsere Spezialistin für Farbe und Balayage. Mit kreativem Talent und Präzision zaubert sie natürlich strahlende Ergebnisse.",
     image: `${BASE}images/team-2.jpeg`,
   },
 ];
