@@ -11,11 +11,13 @@ const navLinks = [
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isPastHero, setIsPastHero] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
+      setIsPastHero(window.scrollY > window.innerHeight * 0.85);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -29,12 +31,14 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          {/* Logo */}
+          {/* Logo — nur sichtbar nach der Hero-Section */}
           <a href="#" className="flex items-center group">
-            <img
+            <motion.img
               src={`${import.meta.env.BASE_URL}images/logo.png`}
               alt="Hairdesign Cigdem"
               className="h-14 w-auto object-contain"
+              animate={{ opacity: isPastHero ? 1 : 0 }}
+              transition={{ duration: 0.4 }}
             />
           </a>
 
