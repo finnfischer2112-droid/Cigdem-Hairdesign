@@ -91,9 +91,9 @@ export function About() {
           </h3>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 max-w-5xl mx-auto">
 
-          {/* Team Member 1 */}
+          {/* Team Member 1 — Cigdem */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -106,7 +106,7 @@ export function About() {
               <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black/80 to-transparent z-10" />
               <img
                 src={teamMembers[0].image}
-                alt={teamMembers[0].name}
+                alt="Cigdem"
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20" />
@@ -116,12 +116,35 @@ export function About() {
             <p className="text-gray-400 text-sm leading-relaxed font-light">{teamMembers[0].description}</p>
           </motion.div>
 
-          {/* Team Member 2 */}
+          {/* Team Member 2 — Daryna */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.7, delay: 0.15 }}
+            className="group relative"
+          >
+            <div className="relative overflow-hidden aspect-[3/4] mb-5">
+              <div className="absolute inset-0 border border-white/10 group-hover:border-accent/60 transition-colors duration-500 z-10 pointer-events-none" />
+              <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black/80 to-transparent z-10" />
+              <img
+                src={teamMembers[1].image}
+                alt="Daryna"
+                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+              />
+              <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20" />
+            </div>
+            <h4 className="text-xl font-display font-bold text-white mb-1">Daryna</h4>
+            <p className="text-accent text-sm uppercase tracking-wider font-medium mb-3">{teamMembers[1].role}</p>
+            <p className="text-gray-400 text-sm leading-relaxed font-light">Daryna ist unsere Spezialistin für Farbe und Balayage. Mit kreativem Talent und Präzision zaubert sie natürlich strahlende Ergebnisse.</p>
+          </motion.div>
+
+          {/* Team Member 3 — Onur */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-60px" }}
+            transition={{ duration: 0.7, delay: 0.3 }}
             className="group relative"
           >
             <div className="relative overflow-hidden aspect-[3/4] mb-5">
