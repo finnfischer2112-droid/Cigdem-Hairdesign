@@ -48,7 +48,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="tel:+49123456789"
+              href="tel:06128489848"
               className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-white px-5 py-2.5 rounded-none border border-primary hover:border-white/20 transition-all duration-300 font-medium text-sm uppercase tracking-wider"
             >
               <Phone size={16} />
@@ -88,7 +88,7 @@ export function Navbar() {
                 </a>
               ))}
               <a
-                href="tel:+49123456789"
+                href="tel:06128489848"
                 className="flex items-center justify-center gap-2 bg-primary text-white px-5 py-4 mt-4 text-center font-medium uppercase tracking-wider"
               >
                 <Phone size={18} />

@@ -36,7 +36,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1 uppercase tracking-wider text-sm">Telefon</h4>
-                  <a href="tel:+49123456789" className="text-gray-400 hover:text-white text-lg transition-colors">+49 123 456 789</a>
+                  <a href="tel:06128489848" className="text-gray-400 hover:text-white text-lg transition-colors">06128 489848</a>
                 </div>
               </div>
 
@@ -46,7 +46,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1 uppercase tracking-wider text-sm">Adresse</h4>
-                  <p className="text-gray-400 text-lg">Musterstraße 12<br/>12345 Musterstadt</p>
+                  <p className="text-gray-400 text-lg">Kleiststraße 8<br/>65232 Taunusstein</p>
                 </div>
               </div>
 
@@ -57,8 +57,12 @@ export function Contact() {
                 <div>
                   <h4 className="text-white font-medium mb-1 uppercase tracking-wider text-sm">Öffnungszeiten</h4>
                   <ul className="text-gray-400 space-y-1">
-                    <li className="flex justify-between w-48"><span>Mo - Fr:</span> <span>9:00 - 19:00</span></li>
-                    <li className="flex justify-between w-48"><span>Samstag:</span> <span>9:00 - 17:00</span></li>
+                    <li className="flex justify-between w-48"><span>Montag:</span> <span>09:00 – 18:00</span></li>
+                    <li className="flex justify-between w-48"><span>Dienstag:</span> <span>09:00 – 18:00</span></li>
+                    <li className="flex justify-between w-48"><span>Mittwoch:</span> <span>09:00 – 18:00</span></li>
+                    <li className="flex justify-between w-48"><span>Donnerstag:</span> <span>09:00 – 18:00</span></li>
+                    <li className="flex justify-between w-48"><span>Freitag:</span> <span>09:00 – 18:00</span></li>
+                    <li className="flex justify-between w-48"><span>Samstag:</span> <span>09:00 – 16:00</span></li>
                     <li className="flex justify-between w-48 text-primary"><span>Sonntag:</span> <span>Geschlossen</span></li>
                   </ul>
                 </div>
@@ -94,7 +98,7 @@ export function Contact() {
               </p>
               
               <a 
-                href="tel:+49123456789"
+                href="tel:06128489848"
                 className="inline-flex items-center justify-center gap-3 w-full bg-primary hover:bg-primary/90 text-white py-4 px-8 font-medium uppercase tracking-widest transition-all duration-300 hover:shadow-[0_0_30px_rgba(200,16,46,0.4)]"
               >
                 <Phone size={20} />

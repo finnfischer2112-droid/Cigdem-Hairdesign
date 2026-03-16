@@ -66,7 +66,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.8 }}
         >
           <a 
-            href="tel:+49123456789"
+            href="tel:06128489848"
             className="group relative inline-flex items-center gap-3 bg-primary px-8 py-4 text-white font-medium uppercase tracking-widest overflow-hidden"
           >
             <span className="absolute inset-0 w-full h-full bg-white/20 -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out" />
