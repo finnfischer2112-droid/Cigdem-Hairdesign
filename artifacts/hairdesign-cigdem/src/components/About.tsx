@@ -107,7 +107,8 @@ export function About() {
               <img
                 src={teamMembers[0].image}
                 alt="Cigdem"
-                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                style={{ objectPosition: "center 20%" }}
               />
               <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20" />
             </div>
@@ -130,7 +131,8 @@ export function About() {
               <img
                 src={teamMembers[1].image}
                 alt="Daryna"
-                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                style={{ objectPosition: "center 20%" }}
               />
               <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20" />
             </div>
