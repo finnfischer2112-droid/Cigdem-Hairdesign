@@ -104,11 +104,7 @@ export function About() {
             <div className="relative overflow-hidden aspect-[3/4] mb-5">
               <div className="absolute inset-0 border border-white/10 group-hover:border-accent/60 transition-colors duration-500 z-10 pointer-events-none" />
               <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black/80 to-transparent z-10" />
-              <img
-                src={teamMembers[0].image}
-                alt="Cigdem"
-                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
-              />
+
               <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20" />
             </div>
             <h4 className="text-xl font-display font-bold text-white mb-1">Cigdem</h4>
