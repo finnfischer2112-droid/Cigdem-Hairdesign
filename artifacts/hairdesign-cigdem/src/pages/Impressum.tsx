@@ -20,8 +20,8 @@ export default function Impressum() {
           <div>
             <h2 className="text-white font-medium uppercase tracking-wider text-sm mb-2">Angaben gemäß § 5 TMG</h2>
             <p>
-              Cigdem UG<br />
-              Inhaberin: Cigdem Atlan<br />
+              Cidem UG<br />
+              Inhaberin: Cidem Atlan<br />
               Kleiststraße 8<br />
               65232 Taunusstein
             </p>
@@ -44,7 +44,7 @@ export default function Impressum() {
           <div>
             <h2 className="text-white font-medium uppercase tracking-wider text-sm mb-2">Verantwortlich für den Inhalt</h2>
             <p>
-              Cigdem Atlan<br />
+              Cidem Atlan<br />
               Kleiststraße 8<br />
               65232 Taunusstein
             </p>
