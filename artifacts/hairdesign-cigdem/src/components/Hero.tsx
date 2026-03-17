@@ -50,15 +50,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-xl md:text-2xl max-w-2xl mb-10 font-display italic font-light"
-          style={{
-            background: "linear-gradient(90deg, #b8860b 0%, #FFD700 30%, #fffacd 50%, #FFD700 70%, #b8860b 100%)",
-            backgroundSize: "200% auto",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
-            animation: "shimmer 3s linear infinite",
-          }}
+          className="text-gray-300 text-xl md:text-2xl max-w-2xl mb-10 font-display italic font-light"
         >
           Ihr Friseur für Schnitt, Farbe und Styling – für Damen und Herren in Taunusstein.
         </motion.p>
