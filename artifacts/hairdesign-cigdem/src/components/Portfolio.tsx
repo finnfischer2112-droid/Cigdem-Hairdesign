@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const images = [
-  { src: `${import.meta.env.BASE_URL}images/gallery-1-new.jpeg`, position: "center 65%", scale: 2, origin: "center top" },
-  { src: `${import.meta.env.BASE_URL}images/gallery-2.jpeg`, position: "center 35%", scale: 1.3, origin: "center" },
-  { src: `${import.meta.env.BASE_URL}images/gallery-3.jpeg`, position: "center", scale: 1, origin: "center" },
-  { src: `${import.meta.env.BASE_URL}images/gallery-4.jpeg`, position: "center 38%", scale: 1.5, origin: "center" },
-  { src: `${import.meta.env.BASE_URL}images/gallery-5.jpeg`, position: "center 43%", scale: 1, origin: "center" },
-  { src: `${import.meta.env.BASE_URL}images/gallery-6.jpeg`, position: "center 40%", scale: 1, origin: "center" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-1-new.jpeg`, position: "center 65%", bgSize: "200%" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-2.jpeg`, position: "center 35%", bgSize: "cover" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-3.jpeg`, position: "center", bgSize: "cover" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-4.jpeg`, position: "center 38%", bgSize: "150%" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-5.jpeg`, position: "center 43%", bgSize: "cover" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-6.jpeg`, position: "center 40%", bgSize: "cover" },
 ];
 
 export function Portfolio() {
@@ -37,13 +37,14 @@ export function Portfolio() {
               className="relative overflow-hidden group cursor-pointer"
               style={{ paddingBottom: "100%" }}
             >
-              <img 
-                src={img.src} 
-                alt={`Portfolio Style ${idx + 1}`} 
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700"
-                style={{ objectPosition: img.position, transform: `scale(${img.scale})`, transformOrigin: img.origin }}
-                onMouseEnter={e => (e.currentTarget.style.transform = `scale(${img.scale * 1.08})`)}
-                onMouseLeave={e => (e.currentTarget.style.transform = `scale(${img.scale})`)}
+              <div
+                className="absolute inset-0 transition-all duration-700 group-hover:scale-105"
+                style={{
+                  backgroundImage: `url(${img.src})`,
+                  backgroundSize: img.bgSize,
+                  backgroundPosition: img.position,
+                  backgroundRepeat: "no-repeat",
+                }}
               />
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
