@@ -7,7 +7,7 @@ const teamMembers = [
     name: "Cigdem",
     role: "Inhaberin & Stylistin",
     description: "Mit jahrelanger Erfahrung und einem Gespür für zeitlose Eleganz kreiert Cigdem individuelle Looks, die Ihre Persönlichkeit perfekt unterstreichen.",
-    image: `${BASE}images/team-1.jpeg`,
+    image: `${BASE}images/team-cigdem.jpeg`,
   },
   {
     name: "Cigdem",
