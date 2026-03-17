@@ -96,9 +96,6 @@ export function About() {
             <span className="text-accent uppercase tracking-widest text-sm font-semibold">Unser Team</span>
             <div className="h-[1px] w-12 bg-accent" />
           </div>
-          <h3 className="text-2xl md:text-3xl font-display font-bold text-white">
-            Lernen Sie uns kennen
-          </h3>
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 max-w-5xl mx-auto">
