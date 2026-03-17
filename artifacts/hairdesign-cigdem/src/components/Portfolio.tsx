@@ -28,7 +28,7 @@ export function Portfolio() {
 
         <div
           style={{
-            columns: "4 220px",
+            columns: "3 280px",
             columnGap: "1rem",
           }}
         >
@@ -40,6 +40,7 @@ export function Portfolio() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
               className="relative overflow-hidden group cursor-pointer mb-4 break-inside-avoid"
+              style={idx === 0 ? { padding: "16px" } : {}}
             >
               <img
                 src={src}
