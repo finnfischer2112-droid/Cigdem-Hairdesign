@@ -36,7 +36,7 @@ export function About() {
               <img
                 src={`${import.meta.env.BASE_URL}images/about-img2.jpg`}
                 alt="Hairdesign Cigdem Salon"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover transition-all duration-700"
               />
             </div>
             <div className="absolute -inset-4 border border-white/10 z-0 pointer-events-none hidden md:block" />
