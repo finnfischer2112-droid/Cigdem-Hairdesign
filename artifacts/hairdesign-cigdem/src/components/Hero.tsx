@@ -52,7 +52,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-gray-300 text-lg md:text-xl max-w-2xl mb-10 font-light"
         >
-          Erleben Sie exklusive Haarkunst in einem Ambiente, das Entspannung und Stil perfekt vereint.
+          Schneiden, Färben, Stylen – für Damen und Herren. Wir freuen uns auf Ihren Besuch.
         </motion.p>
         
         <motion.div
