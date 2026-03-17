@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const images = [
-  { src: `${import.meta.env.BASE_URL}images/gallery-1-new.jpeg`, position: "bottom center", scale: 1 },
-  { src: `${import.meta.env.BASE_URL}images/gallery-2.jpeg`, position: "center 35%", scale: 1.3 },
-  { src: `${import.meta.env.BASE_URL}images/gallery-3.jpeg`, position: "center", scale: 1 },
-  { src: `${import.meta.env.BASE_URL}images/gallery-4.jpeg`, position: "center 38%", scale: 1.5 },
-  { src: `${import.meta.env.BASE_URL}images/gallery-5.jpeg`, position: "center 43%", scale: 1 },
-  { src: `${import.meta.env.BASE_URL}images/gallery-6.jpeg`, position: "center 40%", scale: 1 },
+  { src: `${import.meta.env.BASE_URL}images/gallery-1-new.jpeg`, position: "center 75%", scale: 2, origin: "center bottom" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-2.jpeg`, position: "center 35%", scale: 1.3, origin: "center" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-3.jpeg`, position: "center", scale: 1, origin: "center" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-4.jpeg`, position: "center 38%", scale: 1.5, origin: "center" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-5.jpeg`, position: "center 43%", scale: 1, origin: "center" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-6.jpeg`, position: "center 40%", scale: 1, origin: "center" },
 ];
 
 export function Portfolio() {
@@ -41,7 +41,7 @@ export function Portfolio() {
                 src={img.src} 
                 alt={`Portfolio Style ${idx + 1}`} 
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700"
-                style={{ objectPosition: img.position, transform: `scale(${img.scale})` }}
+                style={{ objectPosition: img.position, transform: `scale(${img.scale})`, transformOrigin: img.origin }}
                 onMouseEnter={e => (e.currentTarget.style.transform = `scale(${img.scale * 1.08})`)}
                 onMouseLeave={e => (e.currentTarget.style.transform = `scale(${img.scale})`)}
               />
