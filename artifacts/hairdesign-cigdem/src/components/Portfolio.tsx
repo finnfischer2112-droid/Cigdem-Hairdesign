@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const images = [
-  { src: `${import.meta.env.BASE_URL}images/gallery-1-new.jpeg`, position: "center 75%", scale: 2, origin: "center bottom" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-1-new.jpeg`, position: "center 20%", scale: 2, origin: "center top" },
   { src: `${import.meta.env.BASE_URL}images/gallery-2.jpeg`, position: "center 35%", scale: 1.3, origin: "center" },
   { src: `${import.meta.env.BASE_URL}images/gallery-3.jpeg`, position: "center", scale: 1, origin: "center" },
   { src: `${import.meta.env.BASE_URL}images/gallery-4.jpeg`, position: "center 38%", scale: 1.5, origin: "center" },
