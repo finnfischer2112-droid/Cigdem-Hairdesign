@@ -67,3 +67,8 @@
     border-image: linear-gradient(to right, #FFD700, #FDB931) 1;
   }
 }
+
+@keyframes shimmer {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
