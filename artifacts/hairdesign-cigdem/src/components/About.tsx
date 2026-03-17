@@ -61,7 +61,7 @@ export function About() {
 
             <div className="space-y-6 text-gray-300 font-light leading-relaxed">
               <p>
-                Willkommen bei <strong className="text-white font-medium">Hairdesign Cigdem</strong> – Ihrem Friseur für anspruchsvolle Kunden. Wir verbinden Leidenschaft, Kreativität und höchste Qualität, um Ihnen den perfekten Look zu verleihen.
+                Willkommen bei <strong className="text-white font-medium">Hairdesign Cigdem</strong> – Ihrem Friseur für anspruchsvolle Kunden seit 2005. Wir verbinden Leidenschaft, Kreativität und höchste Qualität, um Ihnen den perfekten Look zu verleihen.
               </p>
               <p>
                 Unser erfahrenes Team steht für zeitlose Eleganz und modernen Style. Egal ob klassischer Herrenschnitt, aufwendige Balayage oder stilvolle Hochsteckfrisur – wir nehmen uns die Zeit für eine individuelle Beratung, die Ihre Persönlichkeit unterstreicht.
