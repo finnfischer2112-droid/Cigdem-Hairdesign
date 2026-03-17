@@ -4,7 +4,7 @@ const images = [
   `${import.meta.env.BASE_URL}images/gallery-1-final.jpeg`,
   `${import.meta.env.BASE_URL}images/gallery-2-final.jpeg`,
   `${import.meta.env.BASE_URL}images/gallery-3-final.jpeg`,
-  `${import.meta.env.BASE_URL}images/gallery-4-final.jpeg`,
+  `${import.meta.env.BASE_URL}images/gallery-4-v2.jpeg`,
   `${import.meta.env.BASE_URL}images/gallery-5-final.jpeg`,
   `${import.meta.env.BASE_URL}images/gallery-6-final.jpeg`,
 ];
@@ -40,7 +40,7 @@ export function Portfolio() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
               className="relative overflow-hidden group cursor-pointer mb-4 break-inside-avoid"
-              style={idx === 0 ? { padding: "16px" } : idx === 3 ? { padding: "12px" } : {}}
+              style={idx === 0 ? { padding: "16px" } : {}}
             >
               <img
                 src={src}
