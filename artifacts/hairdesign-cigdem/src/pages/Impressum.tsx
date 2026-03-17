@@ -20,7 +20,7 @@ export default function Impressum() {
           <div>
             <h2 className="text-white font-medium uppercase tracking-wider text-sm mb-2">Angaben gemäß § 5 TMG</h2>
             <p>
-              Cidem UG<br />
+              Cigdem UG<br />
               Inhaberin: Cidem Atlan<br />
               Kleiststraße 8<br />
               65232 Taunusstein
