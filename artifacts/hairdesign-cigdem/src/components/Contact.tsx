@@ -9,7 +9,6 @@ export function Contact() {
         <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-[100px] -translate-y-1/2" />
         <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-accent/5 rounded-full blur-[80px]" />
       </div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
@@ -25,9 +24,7 @@ export function Contact() {
             <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-8 uppercase tracking-wider">
               Besuchen Sie uns
             </h2>
-            <p className="text-gray-300 font-light mb-12 text-lg">
-              Wir freuen uns darauf, Sie in unserem Salon begrüßen zu dürfen. Vereinbaren Sie am besten gleich telefonisch einen Termin.
-            </p>
+            <p className="text-gray-300 font-light mb-12 text-lg">Wir freuen uns darauf, Sie in unserem Salon begrüßen zu dürfen. Vereinbaren Sie gerne telefonisch einen Termin.</p>
 
             <div className="space-y-8">
               <div className="flex items-start gap-4 group">
