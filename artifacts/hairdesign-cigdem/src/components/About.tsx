@@ -69,6 +69,16 @@ export function About() {
               <p>
                 Lehnen Sie sich zurück, genießen Sie unser erstklassiges Ambiente und lassen Sie sich von uns verwöhnen.
               </p>
+              <div className="pt-2">
+                <p className="text-white text-sm uppercase tracking-widest mb-4 font-medium">Unsere Leistungen</p>
+                <div className="flex flex-wrap gap-2">
+                  {["Damenschnitte", "Herrenschnitte", "Kinderschnitte", "Balayage", "Blondieren", "Hochsteckfrisur", "Augenbrauen zupfen mit Faden", "Schminken"].map((service) => (
+                    <span key={service} className="px-3 py-1.5 border border-accent/40 text-accent text-xs uppercase tracking-wider font-medium rounded-full">
+                      {service}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </motion.div>
         </div>
