@@ -24,7 +24,7 @@ export function Contact() {
             <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-8 uppercase tracking-wider">
               Besuchen Sie uns
             </h2>
-            <p className="text-gray-300 font-light mb-12 text-lg">Wir freuen uns darauf, Sie in unserem Salon begrüßen zu dürfen. Vereinbaren Sie gerne telefonisch einen Termin.</p>
+            <p className="text-gray-300 font-light mb-12 text-lg">Wir freuen uns darauf, Sie in unserem Salon begrüßen zu dürfen. Vereinbaren Sie telefonisch einen Termin, oder kommen Sie einfach vorbei.</p>
 
             <div className="space-y-8">
               <div className="flex items-start gap-4 group">

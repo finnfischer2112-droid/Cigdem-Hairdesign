@@ -34,7 +34,7 @@ export function About() {
             <div className="aspect-[4/3] overflow-hidden relative">
               <div className="absolute inset-0 bg-accent/20 mix-blend-overlay z-10" />
               <img
-                src={`${import.meta.env.BASE_URL}images/about-img.png`}
+                src={`${import.meta.env.BASE_URL}images/about-img2.jpg`}
                 alt="Hairdesign Cigdem Salon"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
