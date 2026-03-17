@@ -21,8 +21,8 @@ export function Hero() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background z-10" />
         <img
-          src={`${import.meta.env.BASE_URL}images/hero-bg.png`}
-          alt="Luxury Hair Salon Interior"
+          src={`${import.meta.env.BASE_URL}images/hero-salon.jpg`}
+          alt="Hairdesign Cigdem Salon"
           className="w-full h-full object-cover scale-105"
         />
       </motion.div>
