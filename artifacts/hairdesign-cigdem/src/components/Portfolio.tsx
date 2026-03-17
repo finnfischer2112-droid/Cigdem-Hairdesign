@@ -28,7 +28,7 @@ export function Portfolio() {
 
         <div
           style={{
-            columns: "3 280px",
+            columns: "4 220px",
             columnGap: "1rem",
           }}
         >
