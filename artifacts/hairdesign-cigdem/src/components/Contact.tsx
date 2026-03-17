@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, MapPin, Clock } from "lucide-react";
 
 export function Contact() {
   return (
@@ -65,15 +65,6 @@ export function Contact() {
                 </div>
               </div>
               
-              <div className="flex items-start gap-4 group">
-                <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-accent group-hover:bg-accent group-hover:text-black transition-colors duration-300 shrink-0">
-                  <Mail size={20} />
-                </div>
-                <div>
-                  <h4 className="text-white font-medium mb-1 uppercase tracking-wider text-sm">E-Mail</h4>
-                  <a href="mailto:info@hairdesign-cigdem.de" className="text-gray-400 hover:text-white transition-colors">info@hairdesign-cigdem.de</a>
-                </div>
-              </div>
             </div>
 
           </motion.div>
