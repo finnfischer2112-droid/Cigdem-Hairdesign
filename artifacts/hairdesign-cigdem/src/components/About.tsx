@@ -108,7 +108,7 @@ export function About() {
                 src={teamMembers[0].image}
                 alt="Cigdem"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                style={{ objectPosition: "center 10%", transform: "scale(1.25)", transformOrigin: "center 10%" }}
+                style={{ objectPosition: "center 0%", transform: "scale(1.25)", transformOrigin: "center 0%" }}
               />
               <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20" />
             </div>
