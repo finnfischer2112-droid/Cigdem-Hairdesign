@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const images = [
-  `${import.meta.env.BASE_URL}images/gallery-1-new.jpeg`,
+  `${import.meta.env.BASE_URL}images/gallery-1-final.jpeg`,
   `${import.meta.env.BASE_URL}images/gallery-2.jpeg`,
   `${import.meta.env.BASE_URL}images/gallery-3.jpeg`,
   `${import.meta.env.BASE_URL}images/gallery-4.jpeg`,
