@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const images = [
   { src: `${import.meta.env.BASE_URL}images/gallery-1-new.jpeg`, position: "center 20%", bgSize: "200%" },
-  { src: `${import.meta.env.BASE_URL}images/gallery-2.jpeg`, position: "center 41%", bgSize: "130%" },
+  { src: `${import.meta.env.BASE_URL}images/gallery-2.jpeg`, position: "center 39%", bgSize: "130%" },
   { src: `${import.meta.env.BASE_URL}images/gallery-3.jpeg`, position: "center", bgSize: "cover" },
   { src: `${import.meta.env.BASE_URL}images/gallery-4.jpeg`, position: "center 38%", bgSize: "150%" },
   { src: `${import.meta.env.BASE_URL}images/gallery-5.jpeg`, position: "center 43%", bgSize: "cover" },
