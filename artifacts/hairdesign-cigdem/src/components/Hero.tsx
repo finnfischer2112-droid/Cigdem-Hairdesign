@@ -32,15 +32,6 @@ export function Hero() {
         style={{ opacity }}
         className="relative z-20 text-center px-4 max-w-4xl mx-auto flex flex-col items-center"
       >
-        <motion.span 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-accent uppercase tracking-[0.3em] text-sm md:text-base font-semibold mb-4 block"
-        >
-          Premium Damen & Herrenfriseur
-        </motion.span>
-        
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
