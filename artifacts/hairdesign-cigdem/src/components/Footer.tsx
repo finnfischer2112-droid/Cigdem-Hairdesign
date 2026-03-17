@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import { Instagram, Facebook } from "lucide-react";
 
 export function Footer() {
   return (
@@ -15,6 +16,24 @@ export function Footer() {
         </p>
         
         <div className="flex items-center gap-6">
+          <a
+            href="https://www.instagram.com/cigdemhairdesign/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-accent transition-colors"
+            aria-label="Instagram"
+          >
+            <Instagram size={20} />
+          </a>
+          <a
+            href="https://www.facebook.com/p/Hairdesign-Cigdem-100063478363451/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-accent transition-colors"
+            aria-label="Facebook"
+          >
+            <Facebook size={20} />
+          </a>
           <Link href="/impressum" className="text-sm text-gray-500 hover:text-white transition-colors">Impressum</Link>
           <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Datenschutz</a>
         </div>
