@@ -40,7 +40,7 @@ export function Portfolio() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
               className="relative overflow-hidden group cursor-pointer mb-4 break-inside-avoid"
-              style={idx === 0 ? { padding: "16px" } : {}}
+              style={idx === 0 ? { padding: "16px" } : idx === 3 ? { padding: "12px" } : {}}
             >
               <img
                 src={src}
