@@ -2,6 +2,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
 @theme inline {
   --font-sans: 'Montserrat', sans-serif;
   --font-display: 'Raleway', sans-serif;
