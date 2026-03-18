@@ -57,7 +57,7 @@ export function Contact() {
                     <li className="flex justify-between w-48"><span>Montag:</span> <span>09:00 – 18:00</span></li>
                     <li className="flex justify-between w-48"><span>Dienstag:</span> <span>09:00 – 18:00</span></li>
                     <li className="flex justify-between w-48"><span>Mittwoch:</span> <span>09:00 – 18:00</span></li>
-                    <li className="flex justify-between w-48"><span>Donnerstag:</span> <span>09:00 – 18:00</span></li>
+                    <li className="flex justify-between w-56"><span>Donnerstag:</span> <span>09:00 – 18:00</span></li>
                     <li className="flex justify-between w-48"><span>Freitag:</span> <span>09:00 – 18:00</span></li>
                     <li className="flex justify-between w-48"><span>Samstag:</span> <span>09:00 – 16:00</span></li>
                     <li className="flex justify-between w-48 text-primary"><span>Sonntag:</span> <span>Geschlossen</span></li>
