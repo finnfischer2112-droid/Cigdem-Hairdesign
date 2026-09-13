@@ -9,12 +9,6 @@ const teamMembers = [
     description: "Mit jahrelanger Erfahrung und einem Gespür für zeitlose Eleganz kreiert Cigdem individuelle Looks, die Ihre Persönlichkeit perfekt unterstreichen.",
     image: `${BASE}images/team-cigdem.jpeg`,
   },
-  {
-    name: "Cigdem",
-    role: "Coloristin & Stylistin",
-    description: "Cigdem ist unsere Spezialistin für Farbe und Balayage. Mit kreativem Talent und Präzision zaubert sie natürlich strahlende Ergebnisse.",
-    image: `${BASE}images/team-2.jpeg`,
-  },
 ];
 
 export function About() {
@@ -98,7 +92,7 @@ export function About() {
           </div>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-4xl mx-auto">
 
           {/* Team Member 1 — Cigdem */}
           <motion.div
@@ -145,30 +139,6 @@ export function About() {
             <h4 className="text-xl font-display font-bold text-white mb-1">Onur</h4>
             <p className="text-accent text-sm uppercase tracking-wider font-medium mb-3">Meister & Herrenspezialist</p>
             <p className="text-gray-400 text-sm leading-relaxed font-light">Onur ist ausgebildeter Meister mit jahrelanger Erfahrung im Bereich Herrenschnitte und Bart. Mit Präzision und Leidenschaft bringt er jeden Herrenlook auf ein neues Level.</p>
-          </motion.div>
-
-          {/* Team Member 3 — Daryna */}
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-60px" }}
-            transition={{ duration: 0.7, delay: 0.3 }}
-            className="group relative"
-          >
-            <div className="relative overflow-hidden aspect-[3/4] mb-5">
-              <div className="absolute inset-0 border border-white/10 group-hover:border-accent/60 transition-colors duration-500 z-10 pointer-events-none" />
-              <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black/80 to-transparent z-10" />
-              <img
-                src={teamMembers[1].image}
-                alt="Daryna"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                style={{ objectPosition: "center 42%", transform: "scale(1.25)", transformOrigin: "center 42%" }}
-              />
-              <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20" />
-            </div>
-            <h4 className="text-xl font-display font-bold text-white mb-1">Daryna</h4>
-            <p className="text-accent text-sm uppercase tracking-wider font-medium mb-3">{teamMembers[1].role}</p>
-            <p className="text-gray-400 text-sm leading-relaxed font-light">Daryna ist unsere Azubine. Mit kreativem Talent und Präzision zaubert sie natürlich strahlende Ergebnisse.</p>
           </motion.div>
 
         </div>
